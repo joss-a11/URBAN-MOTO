@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head> 
+    <meta charse=" UTF-8">
+    <title> URBAN MOTO</title>
+    <link rel= "stylesheet"   href="style.css">  
+
+
+
+</head>
+<body> 
+    <header class= "header">
+        <div class="menu container">
+            <input type="checkbox"id="menu"/>
+            <label for = "menu">
+                <img src="IMAGENES/menu.jpg"  class="menu.icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">inicio </a></li>
+                    <li><a href="#">servicios </a></li>
+                    <li><a href="#">contacto</a></li>
+                    <li><a href="#">modelos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submeno">
+                        <img src="IMAGENES/carrito 2.avif" id= "img-carrito" alt="carrito" width="33" height="auto">
+                        <div id=" carrito">
+                            <table id=" lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" class="btn-2" id="vaciar-carrito">vaciar carrito</a>
+                                                            
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class=" header-content container">
+            <div class="header-txt">
+                <h1>OFERTAS</h1>
+                <p>Estrena la mejor moto</p>
+                <img src="IMAGENES/f1.jpg" alt="moto">
+                <a href="#" class=" btn-1">Infromacion</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="producto container" id="lista-1 ">
+        <h2>Productos</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="IMAGENES/f2.jpeg" alt="">
+                <div class="product-text">
+                    <h3>Motocicleta deportiva</h3>
+                    <p>La mejor calidad</p>
+                    <p class="precio" > $250,000</p>
+                    <a href="#" class=" agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            
+            <div class="product">
+                <img src="IMAGENES/f3.jpeg" alt="">
+                <div class="product-text">
+                    <h3>Motocicleta deportiva</h3>
+                    <p>La mejor calidad</p>
+                    <p class="precio" > $550,000</p>
+                    <a href="#" class=" agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="IMAGENES/f4.jpg" alt="">
+                <div class="product-text">
+                    <h3>Motocicleta deportiva</h3>
+                    <p>La mejor calidad</p>
+                    <p class="precio" > $750,000</p>
+                    <a href="#" class=" agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <img src="IMAGENES/f5.jpg" alt="">
+                <div class="product-text">
+                    <h3>Motocicleta deportiva</h3>
+                    <p>La mejor calidad</p>
+                    <p class="precio" > $650,000</p>
+                    <a href="#" class=" agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            
+            <div class="product">
+                <img src="IMAGENES/f6.jpeg" alt="">
+                <div class="product-text">
+                    <h3>Motocicleta deportiva</h3>
+                    <p>La mejor calidad</p>
+                    <p class="precio" > $350,000</p>
+                    <a href="#" class=" agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+      
+
+
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>  
+</html>
